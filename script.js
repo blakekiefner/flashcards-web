@@ -12,7 +12,8 @@ fetch('flashcards.json')
     })
     .then(data => {
         flashcards = data;
-        // Load the first flashcard after fetching the data
+        shuffle(flashcards); // Shuffle the questions after loading them
+        // Load the first flashcard after shuffling
         nextFlashcard();
     })
     .catch(error => {
