@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 50px;
+}
+
+#flashcard-container {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#flashcard {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
