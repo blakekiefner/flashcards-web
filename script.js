@@ -11,7 +11,7 @@ function shuffle(array) {
 }
 
 // Fetch the flashcards from the JSON file
-fetch('flashcards_corrected_v4.json')
+fetch('flashcards.json')
     .then(response => {
         if (!response.ok) {
             throw new Error('Network response was not ok');
