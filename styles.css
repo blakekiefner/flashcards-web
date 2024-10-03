@@ -20,3 +20,25 @@ body {
     font-size: 20px;
     margin-bottom: 20px;
 }
+.custom-button {
+    background-color: #007bff; /* Blue background color */
+    color: #ffffff; /* White text color */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Add padding for size */
+    font-size: 16px; /* Set font size */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition effects */
+}
+
+/* Change background color and slightly scale the button on hover */
+.custom-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.05); /* Slightly increase size */
+}
+
+/* Add some focus styling */
+.custom-button:focus {
+    outline: none; /* Remove default focus outline */
+    /*box-shadow: 0 0 5px #0056b3; /* Add blue glow when focused */
+}
